@@ -1,4 +1,8 @@
 # main.py
 from fastapi import FastAPI
 
-app = FastAPI() # This is what will be refrenced in config
+app = FastAPI()
+
+@app.get("/")
+async def root():
+    return {"message": "Hello World"}
