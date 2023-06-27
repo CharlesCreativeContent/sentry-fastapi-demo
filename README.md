@@ -4,32 +4,34 @@ The Sentry-FastAPI-Demo is a backend application built with FastAPI and integrat
 ## Repository Structure
 The repository contains the following key files:
 
-main.py: This is the main application file where the FastAPI application is defined.
++ main.py: This is the main application file where the FastAPI application is defined.
 
-requirements.txt: This file lists the Python dependencies required by the application.
++ requirements.txt: This file lists the Python dependencies required by the application.
 
-vercel.json: This file contains the configuration settings for deploying the application on Vercel.
++ vercel.json: This file contains the configuration settings for deploying the application on Vercel.
+
++ pokedex.py: This file contains the pokemon data to be served.
 
 ## Getting Started
 To get started with this template, follow these steps:
 
-Clone the repository: git clone https://github.com/CharlesCreativeContent/sentry-fastapi-demo.git
+1. Clone the repository: git clone https://github.com/CharlesCreativeContent/sentry-fastapi-demo.git
 
-Navigate into the project directory: cd sentry-fastapi-demo
+2. Navigate into the project directory: cd sentry-fastapi-demo
 
-Run the application locally: uvicorn main:app --reload
+3. Run the application locally: uvicorn main:app --reload
 
-Open your browser and navigate to http://localhost:8000 to view the application.
+4. Open your browser and navigate to http://localhost:8000 to view the application.
 
 ## Deploying on Vercel
 
 To deploy the application on Vercel, you will need to:
 
-Create a new project on Vercel and link it to your cloned repository.
++ Create a new project on Vercel and link it to your cloned repository.
 
-To use Sentry, you will need to sign in to your Sentry account from [Vercel Integration Dashboard](https://vercel.com/integrations/sentry).
++ To use Sentry, you will need to sign in to your Sentry account from [Vercel Integration Dashboard](https://vercel.com/integrations/sentry).
 
-Deploy the application.
++ Deploy the application.
 
 ## License
 The Sentry-FastAPI-Demo is open-source software licensed under the MIT license.
