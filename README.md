@@ -23,7 +23,7 @@ To get started with this template, follow these steps:
 
 4. Open your browser and navigate to http://localhost:8000 to view the application.
 
-## Deploying on Vercel
+## Deploying on Vercel [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FCharlesCreativeContent%2Fsentry-fastapi-demo&skippable-integrations=1)
 
 To deploy the application on Vercel, you will need to:
 
