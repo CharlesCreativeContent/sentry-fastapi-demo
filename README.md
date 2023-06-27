@@ -1,7 +1,4 @@
 # Sentry-FastAPI-Demo
-This repository contains a template for a FastAPI backend with Sentry Monitoring, ready to be deployed on Vercel.
-
-## Overview
 The Sentry-FastAPI-Demo is a backend application built with FastAPI and integrated with Sentry for error tracking and reporting. The application is designed to be deployed on Vercel, providing a seamless and scalable solution for backend services.
 
 ## Repository Structure
