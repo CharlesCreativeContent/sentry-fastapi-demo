@@ -8,17 +8,26 @@ The Sentry-FastAPI-Demo is a backend application built with FastAPI and integrat
 The repository contains the following key files:
 
 main.py: This is the main application file where the FastAPI application is defined.
+
 requirements.txt: This file lists the Python dependencies required by the application.
+
 vercel.json: This file contains the configuration settings for deploying the application on Vercel.
+
 Getting Started
 To get started with this template, follow these steps:
 
 Clone the repository: git clone https://github.com/CharlesCreativeContent/sentry-fastapi-demo.git
+
 Navigate into the project directory: cd sentry-fastapi-demo
+
 Install the required dependencies: pip install -r requirements.txt
+
 Run the application locally: uvicorn main:app --reload
+
 Open your browser and navigate to http://localhost:8000 to view the application.
+
 Deploying on Vercel
+
 To deploy the application on Vercel, you will need to:
 
 Create a new project on Vercel and link it to your cloned repository.
