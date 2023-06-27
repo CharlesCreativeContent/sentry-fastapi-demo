@@ -20,8 +20,6 @@ Clone the repository: git clone https://github.com/CharlesCreativeContent/sentry
 
 Navigate into the project directory: cd sentry-fastapi-demo
 
-Install the required dependencies: pip install -r requirements.txt
-
 Run the application locally: uvicorn main:app --reload
 
 Open your browser and navigate to http://localhost:8000 to view the application.
@@ -32,7 +30,7 @@ To deploy the application on Vercel, you will need to:
 
 Create a new project on Vercel and link it to your cloned repository.
 
-Configure the project settings according to the vercel.json file.
+To use Sentry, you will need to sign in to your Sentry account from [Vercel Integration Dashboard][https://vercel.com/integrations/sentry].
 
 Deploy the application.
 
