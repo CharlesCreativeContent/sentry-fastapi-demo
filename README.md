@@ -13,7 +13,7 @@ requirements.txt: This file lists the Python dependencies required by the applic
 
 vercel.json: This file contains the configuration settings for deploying the application on Vercel.
 
-Getting Started
+## Getting Started
 To get started with this template, follow these steps:
 
 Clone the repository: git clone https://github.com/CharlesCreativeContent/sentry-fastapi-demo.git
@@ -26,14 +26,15 @@ Run the application locally: uvicorn main:app --reload
 
 Open your browser and navigate to http://localhost:8000 to view the application.
 
-Deploying on Vercel
+## Deploying on Vercel
 
 To deploy the application on Vercel, you will need to:
 
 Create a new project on Vercel and link it to your cloned repository.
 Configure the project settings according to the vercel.json file.
 Deploy the application.
-Sentry Monitoring
+
+## Sentry Monitoring
 This application is integrated with Sentry for error tracking and reporting. To use Sentry, you will need to sign up for a Sentry account and configure the Sentry DSN in your application.
 
 ## Contributing
