@@ -31,17 +31,8 @@ To use Sentry, you will need to sign in to your Sentry account from [Vercel Inte
 
 Deploy the application.
 
-## Sentry Monitoring
-This application is integrated with Sentry for error tracking and reporting. To use Sentry, you will need to sign up for a Sentry account and configure the Sentry DSN in your application.
-
-## Contributing
-Contributions to the Sentry-FastAPI-Demo are welcome. Please feel free to fork the repository and submit pull requests.
-
 ## License
 The Sentry-FastAPI-Demo is open-source software licensed under the MIT license.
-
-## Support
-If you encounter any issues while using the Sentry-FastAPI-Demo, please open an issue on the GitHub repository.
 
 ## Acknowledgements
 Thanks to the FastAPI and Sentry communities for their great work, which made this template possible.
